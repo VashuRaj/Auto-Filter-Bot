@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg" alt="Delta Filter Logo">
 </p>
 <h1 align="center">
-  <b>Delta Filter Bot</b>
+  <b>📥📥 Delta Filter Bot📥📥 </b>
 </h1>
  
 
