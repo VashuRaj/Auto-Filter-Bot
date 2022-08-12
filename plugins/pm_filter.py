@@ -34,7 +34,8 @@ filebuttons = [
                         InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
                     ],
                     [
-                       InlineKeyboardButton(" 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
+                       InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 ⭕️ ", url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+                        InlineKeyboardButton("Ⓜ️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 Ⓜ️ ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                        ],
                        [
                        InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
@@ -423,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/DeltaBotsOfficial')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Latest_hindi_hd_Movies_Hub')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -454,7 +455,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/DeltaBotsOfficial'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Latest_hindi_hd_Movies_Hub'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
